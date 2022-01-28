@@ -1,5 +1,10 @@
 README
 
+Description
+
+A web page that allows a user to browse menus for several restaurants, add items from a restaurant to an order, and simulate placing an order. Everything involves client-side programming within the browser and is implemented using plain Javascript.
+
+
 Overall Page Quality
 
 	Changing browser dimension:
