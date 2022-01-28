@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Restaurant</title>
+		<link rel="stylesheet" type="text/css" href="order.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	</head>
+	<body onload="init()">
+		<header>
+			<div id="company">nourishment</div>
+			<div>Select Restaurant:</div>
+			<select id="select"></select>
+		</header>
+		
+		<div id="top">
+			<div id="name"></div>
+			<div id="min"></div>
+			<div id="fee"></div>
+			<br>
+		</div>
+
+		<section id="menu" class="grid-container">
+			<div id="categories"></div>
+			<div id="food"></div>
+			<div id="summary">
+				<div id="title"></div>
+				<table id="table"></table>
+				<div id="subtotal"></div>
+			</div>
+		</section>
+
+		<div><a href="#company"><img src="top.png" alt="Top of page" id="jump"></img></a></div>
+
+		<script src="client.js"></script>
+	</body>
+</html>
